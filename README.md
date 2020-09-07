@@ -24,3 +24,6 @@ https://react-dnd.github.io/react-dnd/docs/overview - source!
 
 npm install --save react-dnd-html5-backend
 ```
+
+https://github.com/react-dnd/react-dnd-html5-backend - More Info!
+[dnd](https://github.com/react-dnd/react-dnd-html5-backend)
