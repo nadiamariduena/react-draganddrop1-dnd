@@ -18,6 +18,9 @@ https://react-dnd.github.io/react-dnd/docs/overview - source!
 <br>
 <br>
 
-```javascript 
+### DND installation
+
+```javascript
 
 npm install --save react-dnd-html5-backend
+```
