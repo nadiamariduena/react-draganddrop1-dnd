@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-draganddrop1-dnd/static/css/main.2bf3dc32.chunk.css",
-    "main.js": "/react-draganddrop1-dnd/static/js/main.c6ac4859.chunk.js",
-    "main.js.map": "/react-draganddrop1-dnd/static/js/main.c6ac4859.chunk.js.map",
+    "main.css": "/react-draganddrop1-dnd/static/css/main.96c3e276.chunk.css",
+    "main.js": "/react-draganddrop1-dnd/static/js/main.fd4e8906.chunk.js",
+    "main.js.map": "/react-draganddrop1-dnd/static/js/main.fd4e8906.chunk.js.map",
     "runtime-main.js": "/react-draganddrop1-dnd/static/js/runtime-main.523b2dee.js",
     "runtime-main.js.map": "/react-draganddrop1-dnd/static/js/runtime-main.523b2dee.js.map",
     "static/js/2.4df7332a.chunk.js": "/react-draganddrop1-dnd/static/js/2.4df7332a.chunk.js",
     "static/js/2.4df7332a.chunk.js.map": "/react-draganddrop1-dnd/static/js/2.4df7332a.chunk.js.map",
     "index.html": "/react-draganddrop1-dnd/index.html",
-    "precache-manifest.24b35a2afd0d48658152eee4d6976473.js": "/react-draganddrop1-dnd/precache-manifest.24b35a2afd0d48658152eee4d6976473.js",
+    "precache-manifest.492b8a45242e39d13e077b69b0972818.js": "/react-draganddrop1-dnd/precache-manifest.492b8a45242e39d13e077b69b0972818.js",
     "service-worker.js": "/react-draganddrop1-dnd/service-worker.js",
-    "static/css/main.2bf3dc32.chunk.css.map": "/react-draganddrop1-dnd/static/css/main.2bf3dc32.chunk.css.map",
+    "static/css/main.96c3e276.chunk.css.map": "/react-draganddrop1-dnd/static/css/main.96c3e276.chunk.css.map",
     "static/js/2.4df7332a.chunk.js.LICENSE.txt": "/react-draganddrop1-dnd/static/js/2.4df7332a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.523b2dee.js",
     "static/js/2.4df7332a.chunk.js",
-    "static/css/main.2bf3dc32.chunk.css",
-    "static/js/main.c6ac4859.chunk.js"
+    "static/css/main.96c3e276.chunk.css",
+    "static/js/main.fd4e8906.chunk.js"
   ]
 }
