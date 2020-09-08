@@ -14,36 +14,40 @@ import Task from "./task";
 // this container will WRAP the columns
 // here I am using the styled-components library :  https://github.com/styled-components/styled-components/issues/701
 const Container = styled.div`
-  border: 2px solid olive;
-  width: 60vw;
-  height: 60vh;
+  width: 40%;
+  height: 70vh;
+
 `;
 const Title = styled.h3`
-  padding: 8px;
-  color: red;
+font-size: 1.5em;
+  padding: 20px;
+  color: #f6d365; ;
 `;
 const TaskList = styled.div`
-  padding: 8px;
+  padding: 40px;
 `;
 
 export default class Column extends React.Component {
   render() {
     return (
-      <Container>
-        <Title>{this.props.column.title}</Title>
+      <React.Fragment>
+        <div className="page">
+          <Container className="cota">
+            <Title>{this.props.column.title}</Title>
 
-        <Droppable droppableId={this.props.column.id}>
-          {(provided) => (
-            <TaskList ref={provided.innerRef}
-            {...provided.droppableProps}>
-              {this.props.tasks.map((task, index) => (
-                <Task key={task.id} task={task} index={index} />
-              ))}
-              {provided.placeholder}
-            </TaskList>
-          )}
-        </Droppable>
-      </Container>
+            <Droppable droppableId={this.props.column.id}>
+              {(provided) => (
+                <TaskList ref={provided.innerRef} {...provided.droppableProps}>
+                  {this.props.tasks.map((task, index) => (
+                    <Task key={task.id} task={task} index={index} />
+                  ))}
+                  {provided.placeholder}
+                </TaskList>
+              )}
+            </Droppable>
+          </Container>
+        </div>
+      </React.Fragment>
     );
   }
 }

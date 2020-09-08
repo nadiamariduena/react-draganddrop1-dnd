@@ -7,13 +7,13 @@ import { Draggable } from "react-beautiful-dnd";
 const Container = styled.div`
   border: 1px solid lightgrey;
   // internal padding of the tab of each task
-  padding: 8px;
+  padding: 10px;
   margin-bottom: 8px;
-  border-radius: 3px;
-  box-shadow: 0 0 5px 1px #eee;
-//   THE FOLLOWING will make that when you are dragging 
-// something the color change to gree but from the moment it reaches the destination it changes to white
-  background-color: ${(props) => (props.isDragging ? "Lightgreen" : "white")};
+  border-radius: 4px;
+
+  //   THE FOLLOWING will make that when you are dragging
+  // something the color change to gree but from the moment it reaches the destination it changes to white
+  background-color: ${(props) => (props.isDragging ? "#f6d365;" : "white")};
 `;
 
 export default class Task extends React.Component {
@@ -27,6 +27,8 @@ export default class Task extends React.Component {
             ref={provided.innerRef}
             isDragging={snapshot.isDragging}
           >
+            {" "}
+            <ion-icon name="bulb-outline"></ion-icon>
             {this.props.task.content}
           </Container>
         )}

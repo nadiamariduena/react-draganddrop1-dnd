@@ -140,3 +140,19 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+// --------
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  .cota {
+    box-shadow: 20px -20px 0px 0px #f6d4657a;
+    background-color: rgb(202, 203, 228);
+
+
+  }
+}
