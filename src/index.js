@@ -1,11 +1,34 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import initialData from "./initial-data";
-import Column from './column';
+import Column from "./column";
+//
 //
 import "./scss/main.scss";
+
 //
-//
+/*
+import "reset-css";
+
+
+you need to have a css(where you can import it) file with all the "reset" you want, 
+this file contains all what you consider necessary to start 
+your css scss styles whatever like margin: 0, padding: 0; 
+AND SO ON, CHECK THIS page to have an idea of what it is or just copy
+his idea of reset: 
+
+https://meyerweb.com/eric/tools/css/reset/
+
+
+//What is the difference between Normalize.css and Reset CSS?
+// https://stackoverflow.com/questions/6887336/what-is-the-difference-between-normalize-css-and-reset-css
+
+
+
+
+
+*/
+
 class App extends React.Component {
   //
   // where the data of the tasks is passed
@@ -22,15 +45,11 @@ class App extends React.Component {
       // And I will also get the task associated with that column
       const tasks = column.taskIds.map((taskId) => this.state.tasks[taskId]);
 
-
       /* here you will return the title of the column
       return column.title; */
       // but I want to render the column component rather than just a title
 
-
-return <Column key={column.id} column={column} tasks={tasks} />;
-
-
+      return <Column key={column.id} column={column} tasks={tasks} />;
     });
   }
 }

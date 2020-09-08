@@ -25,9 +25,41 @@ https://react-dnd.github.io/react-dnd/docs/overview - source!
 npm install --save react-dnd-html5-backend
 
 npm i styled-components
+
+npm install reset-css
 ```
 
 <!-- https://github.com/react-dnd/react-dnd-html5-backend - More Info!
 [dnd](https://github.com/react-dnd/react-dnd-html5-backend) -->
 
 <a src="https://github.com/react-dnd/react-dnd-html5-backend">More Info! </a>
+
+<br>
+<br>
+
+## STYLED COMPONENTS
+
+<br>
+<br>
+
+<p>You know how you can call functions with parenthesis? (myFunc()) Well, now you can also call functions with backticks! (learn more about tagged template literals)</p>
+
+<br>
+<br>
+
+```javascript
+import styled from "styled-components";
+
+const Button = styled.button``;
+```
+
+<p>This Button variable here is now a React component that you can use like any other React component! This unusual backtick syntax is a new JavaScript feature called a tagged template literal.</p>
+
+### PRO & CONS
+
+<p> This pseudo-code may very well work with existing solutions already, but I guess the first thing I’d ask myself if I found myself doing something like this would be, why not just use Sass, since it looks identical? Aside from the benefit of the potential for scoped styles (using some bespoke Sass library, or even a naming convention like BEM, could also solve the issue of scoping), this article notes that other reasons why people may choose CSS-in-JS over Sass include:
+
+</p>
+
+https://levelup.gitconnected.com/react-css-in-js-es6-objects-vs-tagged-template-literals-71670e78995f - More Info!
+[React & CSS-in-JS: ES6 Objects vs Tagged Template Literals](https://levelup.gitconnected.com/react-css-in-js-es6-objects-vs-tagged-template-literals-71670e78995f)
