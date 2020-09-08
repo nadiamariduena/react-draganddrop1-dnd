@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "350339f56a7a7496e56f84005bda9555",
+    "revision": "a43f2c89e318d8c3ea64068ce4e5e65a",
     "url": "/react-draganddrop1-dnd/index.html"
   },
   {
-    "revision": "621d102f7b6d7d889501",
-    "url": "/react-draganddrop1-dnd/static/css/main.6a0ec048.chunk.css"
+    "revision": "5e71089b4be9616f3267",
+    "url": "/react-draganddrop1-dnd/static/css/main.2bf3dc32.chunk.css"
   },
   {
     "revision": "5ef6a91c06b4cf1f3bd1",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-draganddrop1-dnd/static/js/2.4df7332a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "621d102f7b6d7d889501",
-    "url": "/react-draganddrop1-dnd/static/js/main.3d7dfa96.chunk.js"
+    "revision": "5e71089b4be9616f3267",
+    "url": "/react-draganddrop1-dnd/static/js/main.c6ac4859.chunk.js"
   },
   {
     "revision": "fa627957669ac8f50acf",
