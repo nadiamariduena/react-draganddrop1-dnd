@@ -1,16 +1,36 @@
 import React from "react";
 import styled from "styled-components";
 // more info on STYLED COMPONENTS looks FUN! : https://styled-components.com/
+//
+import Task from "./task";
 
 // this container will WRAP the columns
 // here I am using the styled-components library :  https://github.com/styled-components/styled-components/issues/701
-const Container = styled.div``;
-const Title = styled.h3``;
-const TaskList = styled.div``;
+const Container = styled.div`
+  border: 2px solid olive;
+  width: 60vw;
+  height: 60vh;
+`;
+const Title = styled.h3`
+  padding: 8px;
+  color: red;
+`;
+const TaskList = styled.div`
+  padding: 8px;
+`;
 
 export default class Column extends React.Component {
   render() {
-    return this.props.column.title;
+    return (
+      <Container>
+        <Title>{this.props.column.title}</Title>
+        <TaskList>
+          {this.props.tasks.map((task) => (
+            <Task key={task.id} task={task} />
+          ))}
+        </TaskList>
+      </Container>
+    );
   }
 }
 

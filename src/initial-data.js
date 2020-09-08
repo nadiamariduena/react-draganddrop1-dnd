@@ -4,7 +4,6 @@ const initialData = {
     "task-2": { id: "task-2", content: "watch them 2 times" },
     "task-3": { id: "task-3", content: "then practice them" },
   },
-
   columns: {
     "column-1": {
       id: "column-1",
