@@ -13,7 +13,7 @@ const Container = styled.div`
 
   //   THE FOLLOWING will make that when you are dragging
   // something the color change to gree but from the moment it reaches the destination it changes to white
-  background-color: ${(props) => (props.isDragging ? "#f6d365;" : "white")};
+  background-color: ${(props) => (props.isDragging ? "#ffe58f" : "white")};
 `;
 
 export default class Task extends React.Component {

@@ -15,16 +15,18 @@ import Task from "./task";
 // here I am using the styled-components library :  https://github.com/styled-components/styled-components/issues/701
 const Container = styled.div`
   width: 40%;
-  height: 70vh;
-
+  height: auto;
+  padding: 30px 10px;
 `;
 const Title = styled.h3`
-font-size: 1.5em;
+  font-size: 1.5em;
   padding: 20px;
   color: #f6d365; ;
 `;
 const TaskList = styled.div`
-  padding: 40px;
+  padding: 30px;
+  // this is just a choice , it s not necessary but is good to know, this is linked to :  isDraggingOver={snapshot.isDraggingOver}
+  background-color: ${(props) => (props.isDraggingOver ? "#f1f1f1f3" : "")};
 `;
 
 export default class Column extends React.Component {
@@ -36,8 +38,12 @@ export default class Column extends React.Component {
             <Title>{this.props.column.title}</Title>
 
             <Droppable droppableId={this.props.column.id}>
-              {(provided) => (
-                <TaskList ref={provided.innerRef} {...provided.droppableProps}>
+              {(provided, snapshot) => (
+                <TaskList
+                  ref={provided.innerRef}
+                  {...provided.droppableProps}
+                  isDraggingOver={snapshot.isDraggingOver}
+                >
                   {this.props.tasks.map((task, index) => (
                     <Task key={task.id} task={task} index={index} />
                   ))}
