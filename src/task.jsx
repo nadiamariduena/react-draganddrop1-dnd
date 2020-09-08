@@ -11,6 +11,9 @@ const Container = styled.div`
   margin-bottom: 8px;
   border-radius: 3px;
   box-shadow: 0 0 5px 1px #eee;
+//   THE FOLLOWING will make that when you are dragging 
+// something the color change to gree but from the moment it reaches the destination it changes to white
+  background-color: ${(props) => (props.isDragging ? "Lightgreen" : "white")};
 `;
 
 export default class Task extends React.Component {
@@ -22,6 +25,7 @@ export default class Task extends React.Component {
             {...provided.draggableProps}
             {...provided.dragHandleProps}
             ref={provided.innerRef}
+            isDragging={snapshot.isDragging}
           >
             {this.props.task.content}
           </Container>
