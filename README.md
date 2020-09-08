@@ -31,10 +31,8 @@ npm install reset-css
 npm i react-beautiful-dnd
 ```
 
-<!-- https://github.com/react-dnd/react-dnd-html5-backend - More Info!
-[dnd](https://github.com/react-dnd/react-dnd-html5-backend) -->
-
-<a src="https://github.com/react-dnd/react-dnd-html5-backend">More Info! </a>
+https://github.com/react-dnd/react-dnd-html5-backend - More Info!
+[react-dnd-html5-backend](https://github.com/react-dnd/react-dnd-html5-backend)
 
 <br>
 <br>
