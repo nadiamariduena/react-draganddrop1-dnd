@@ -13,7 +13,7 @@
 
 <hr>
 
-#### Reorder a List with DND REACT
+## Reorder a List with DND REACT
 
 <h4>React DnD is built on top of the HTML5 drag and drop API. It is a reasonable default because it screenshots the dragged DOM node and uses it as a “drag preview” out of the box. It's handy that you don't have to do any drawing as the cursor moves. This API is also the only way to handle the file drop events.</h4>
 
