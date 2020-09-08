@@ -27,6 +27,8 @@ npm install --save react-dnd-html5-backend
 npm i styled-components
 
 npm install reset-css
+
+npm i react-beautiful-dnd
 ```
 
 <!-- https://github.com/react-dnd/react-dnd-html5-backend - More Info!
@@ -40,11 +42,9 @@ npm install reset-css
 ## STYLED COMPONENTS
 
 <br>
-<br>
 
 <p>You know how you can call functions with parenthesis? (myFunc()) Well, now you can also call functions with backticks! (learn more about tagged template literals)</p>
 
-<br>
 <br>
 
 ```javascript
@@ -54,6 +54,11 @@ const Button = styled.button``;
 ```
 
 <p>This Button variable here is now a React component that you can use like any other React component! This unusual backtick syntax is a new JavaScript feature called a tagged template literal.</p>
+
+https://styled-components.com/ - More Info!
+[Your first styled component](https://styled-components.com/)
+
+<br>
 
 ### PRO & CONS
 
