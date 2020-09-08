@@ -1,12 +1,10 @@
 # ( APP in progress )
 
-
 <!-- ----------------------- -->
 <!--       DRAG AND DROP     -->
 <!-- ----------------------- -->
 
 <br>
-
 
 [<img src="./src/img/drag_drop.gif">](https://nadiamariduena.github.io/react-draganddrop1-dnd/)
 
