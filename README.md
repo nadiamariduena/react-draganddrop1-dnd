@@ -4,9 +4,12 @@
 <!--       DRAG AND DROP     -->
 <!-- ----------------------- -->
 
+
+
+
 <br>
 
-[<img src="./src/img/drag_drop.gif">](https://nadiamariduena.github.io/react-draganddrop1-dnd/)
+[<img src="./src/img/drag_drop2.gif">](https://nadiamariduena.github.io/react-draganddrop1-dnd/)
 
 <br>
 <br>
@@ -79,3 +82,10 @@ https://styled-components.com/ - More Info!
 
 https://levelup.gitconnected.com/react-css-in-js-es6-objects-vs-tagged-template-literals-71670e78995f - More Info!
 [React & CSS-in-JS: ES6 Objects vs Tagged Template Literals](https://levelup.gitconnected.com/react-css-in-js-es6-objects-vs-tagged-template-literals-71670e78995f)
+
+
+<br>
+
+[<img src="./src/img/drag_drop.gif">](https://nadiamariduena.github.io/react-draganddrop1-dnd/)
+
+<br>
